@@ -5,7 +5,7 @@ This repository contains a fully automated Resume Screening & Feedback Chatbot b
 The system reads resumes uploaded via Telegram, extracts all key information, evaluates the content using an LLM, and returns personalized feedback in real time — all without any manual intervention.
 
 **🔍 Project Overview**
-**The chatbot interacts with users through Telegram and automates the entire resume evaluation process. Once a resume is uploaded, the system:**
+- **The chatbot interacts with users through Telegram and automates the entire resume evaluation process. Once a resume is uploaded, the system:**
 - ✔ Extracts text (PDF / ZIP → Text)
 - ✔ Identifies key sections
 - Skills
@@ -13,9 +13,9 @@ The system reads resumes uploaded via Telegram, extracts all key information, ev
 - Education
 - Certifications
 
-**✔ Matches resume content to predefined job roles**
-**✔ Performs gap analysis using Google Gemini LLM**
-**✔ Generates detailed feedback including:**
+- **✔ Matches resume content to predefined job roles**
+- **✔ Performs gap analysis using Google Gemini LLM**
+- **✔ Generates detailed feedback including:**
 
 - Strengths
 - Weaknesses
@@ -35,6 +35,7 @@ The system reads resumes uploaded via Telegram, extracts all key information, ev
 - Chat-based response delivery
 
 **🧠 Workflow Summary**
+
 **1)Telegram Trigger Node**
 - Captures resume files from users.
 
@@ -54,17 +55,17 @@ The system reads resumes uploaded via Telegram, extracts all key information, ev
 - Sends detailed feedback back to the user.
 
 **🎯 Key Features**
-🔹 100% automated resume evaluation
-🔹 Smart skill-gap analysis using LLM
-🔹 ATS-style scoring for accuracy
-🔹 Personalized improvement suggestions
-🔹 Fast & scalable for institutions
-🔹 Consistent and reliable assessments
-🔹 Perfect for student training & placement departments
+- 🔹 100% automated resume evaluation
+- 🔹 Smart skill-gap analysis using LLM
+- 🔹 ATS-style scoring for accuracy
+- 🔹 Personalized improvement suggestions
+- 🔹 Fast & scalable for institutions
+- 🔹 Consistent and reliable assessments
+- 🔹 Perfect for student training & placement departments
 
 **📈 Impact**
 
-**This automation:**
+- **This automation:**
 
 - ✔ Greatly reduces manual evaluation work
 - ✔ Helps students improve resumes instantly
